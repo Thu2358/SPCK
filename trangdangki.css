@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    background-color: rgb(233, 216, 226);
+    height: 55px;
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: 0px 20px;
+    font-size: 22px; 
+}
+.navigation a{
+   text-decoration: none;
+}
+.navigation p{
+    color: #404E5C;
+}
+.bar{
+    padding: 11px 20px;
+    color: #404E5C;
+}
+.bar:hover{
+    background-color: rgb(176, 151, 166);
+}
+.bar:hover i{
+    color: white;
+}
+.timKiem input{
+    width: 95px;
+    height: 35px; 
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size:16px;
+    border: none;
+    outline-color:rgba(151, 111, 132, 0.728) ;
+    padding-left: 10px;
+}
+.timKiem{
+    padding: 11px 20px;
+    color: #404E5C;
+}
+.timKiem:hover{
+    background-color: rgb(176, 151, 166);
+}
+.timKiem:hover i{
+    color: white;
+}
+.gioHang{
+    padding: 11px 20px;
+    color: #404E5C;
+}
+.gioHang:hover{
+    background-color: rgb(176, 151, 166);
+}
+.gioHang:hover i{
+    color: white;
+}
+.user{
+    margin-top: 4px; 
+    padding: 11px 20px;
+    color: #404E5C;
+
+}
+.user:hover{
+    background-color: rgb(176, 151, 166);
+}
+.user:hover i{
+    color: white;
+}
+.navigationLeft{
+    display: flex;
+}
+.navigationRight{
+    display: flex;
+}
+.niki{
+    background-color: rgb(255, 255, 255);
+    padding: 3px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 120px;
+}
+.user{
+    position: relative;
+}
+.user:hover ul{
+    display: block;
+}
+.user ul{
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    width:150px;
+    background-color: rgba(179, 132, 160, 0.728);
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 12px 5px 15px 0px rgba(197, 130, 130, 0.5);
+    padding-left: 0;
+    overflow: hidden;
+    display: none;
+}
+.user ul li{
+    padding: 10px ;
+}
+.user ul li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.user ul li a{
+    text-decoration: none;
+    color: rgb(242, 235, 235);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 218, 227); 
+    color: rgb(51, 51, 60);
+    background-image: url(bg1img.jpg);
+    background-size: cover;
+    font-family: "PT Serif", serif;
+}
+.dangKy{
+    width: 400px;
+    height: 370px;
+    background-color: rgba(225, 167, 180, 0.861); 
+    border-radius: 17px;
+    box-shadow: 9px 10px 15px 0px rgba(195, 72, 101, 0.667);
+    overflow: hidden;
+    margin-left: 40px ;
+    margin-top: 50px;
+} 
+.form{
+    padding-left: 50px;
+}
+.dangKy h2{
+    padding-top: 15px;
+    font-size: 28px;
+    text-align: center;
+    margin: 20px; 
+}   
+ input{
+    height: 25px;
+    border: none; 
+    outline-color: rgba(155, 121, 144, 0.831);
+    border-bottom: 2px solid rgba(157, 94, 108, 0.861);
+    padding-left: 10px;
+    width: 300px;
+}
+.pass {
+    margin-top: 10px;
+}
+button{
+    height: 35px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 30px ;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(236, 220, 229);
+}
+button:hover{
+    background-color: rgba(148, 73, 105, 0.836);
+    color: white;
+}
+.register{
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.dangKy a{
+    margin-left: 95px;
+    text-decoration: none;
+    color: rgb(57, 58, 79);
+}
+.email{
+    margin-top: 10px;
+}
